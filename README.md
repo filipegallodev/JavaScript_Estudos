@@ -1,3 +1,3 @@
 # Estudos em JavaScript
 
-Arquivos relacionados aos estudos na linguagem JavaScript.
+Arquivos relacionados aos estudos na linguagem **JavaScript**.
