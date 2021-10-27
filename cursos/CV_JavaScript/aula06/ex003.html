@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: crimson;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.3em;
+        }
+        h1 {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))  // Number.parseInt(VARIAVEL) converte para int, vale o mesmo para Number.parseFloat()
+        var n2 = Number(window.prompt('Digite outro número: '))  // Number(VARIAVEL) converte para number, tanto faz se int ou float
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        n1 = String(n1)  // converte para string
+        window.alert(`A concatenação: ${n1 + n2}`)
+    </script>
+</body>
+</html>
