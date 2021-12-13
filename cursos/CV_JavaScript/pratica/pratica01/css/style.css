@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body {
+   background-color: rgba(0, 110, 255, 0.849);
+   font-size: 1.3em;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   cursor: default;
+}
+
+header {
+   text-align: center;
+   color: white;
+}
+
+div {
+   text-align: center;
+}
+
+section {
+   background-color: white;
+   width: 470px;
+   padding: 15px;
+   border-radius: 10px;
+   margin: auto;
+   box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.342);
+   
+}
+
+input {
+   border-radius: 10px;
+   border-color: rgba(0, 153, 255, 0.767);
+   padding: 7px;
+   padding-top: 10px;
+   margin-top: 5px;
+   width: 330px;
+   font-size: 0.8em;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input#masc, input#femi {
+   width: 15px;
+   cursor: pointer;
+}
+
+label {
+   cursor: pointer;
+}
+
+footer {
+   color: white;
+   font-style: italic;
+   text-align: center;
+   font-size: 0.8em;
+}
+
+#botao {
+   border-radius: 15px;
+   margin-top: 25px;
+   margin-bottom: 15px;
+   width: 270px;
+   height: 60px;
+   background-color: rgb(5, 108, 192);
+   border-color: rgb(0, 195, 255);
+   color: white;
+   font-size: 1em;
+   cursor: pointer;
+}
